@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitta katterna!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container" id="image-container"></div>
+        <div class="image-description" id="image-description"></div>
+
+        <div class="score">
+            <p class ="score-display" id="score-display"></p>
+        </div>
+
+        <div class="controls">
+            <div class="topRow">
+                <button class="north">Norr</button>
+            </div>
+            <div class="middleRow">
+                <button class="west">Väst</button>
+                <div class="center"></div>
+                <button class="east">Öst</button>
+            </div>
+            <div class="bottomRow">
+                <button class="south">Syd</button>
+            </div>
+        </div>
+
+        <div class="fact-box" id="fact-box"> 
+            <p id="cat-fact"></p>
+        </div>
+
+        <div class="game-board" id="game-board">
+        </div>
+
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                    <p> 🎉Grattis! Du har räddat alla katter och överlevt zombieattacken!😻</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
